@@ -16,7 +16,6 @@ Ein interaktives Power BI-Dashboard zur Analyse von Verkaufsdaten. Dieses Dashbo
 - [Screenshots](#screenshots)
 - [Geplante Erweiterungen](#geplante-erweiterungen)
 - [Lizenz](#lizenz)
-- [Autor](#autor)
 
 ---
 
@@ -89,4 +88,23 @@ Der Datensatz `SalesData.csv` enthält Verkaufsinformationen und folgende Felder
    - Fügen Sie zusätzliche Visualisierungen oder Filter hinzu.
 6. Exportieren Sie das Dashboard als PDF oder veröffentlichen Sie es im Power BI Service.
 
+---
 
+## **Screenshot**
+
+![Retail Sales Dashboard](https://i.ibb.co/ZcWnK2S/dashboard.png "Retail Sales Dashboard")
+
+---
+
+## **Geplante Erweiterungen**
+
+- Hinzufügen von Zeitreihenprognosen.
+- Integration von Echtzeitdaten über eine API.
+- Erweiterung des Dashboards mit KPIs wie Gewinnmarge und Kostenanalyse.
+- Optimierung für mobile Endgeräte.
+
+---
+
+## **Lizenz**
+Dieses Projekt steht unter der MIT-Lizenz.
+Details zur Lizenz finden Sie in der Datei ```LICENSE```.
