@@ -1,5 +1,4 @@
-# RetailSalesDashboard
-Simple dashboard made in Power BI Desktop 
+
 # **Retail Sales Dashboard**
 
 Ein interaktives Power BI-Dashboard zur Analyse von Verkaufsdaten. Dieses Dashboard bietet Einblicke in den Gesamtumsatz, die regionale Verkaufsleistung, monatliche Trends und die Performance einzelner Produkte.
@@ -53,3 +52,41 @@ Dieses Projekt wurde entwickelt, um Verkaufsdaten eines fiktiven Einzelhandelsun
 2. Öffnen Sie Power BI Desktop.
 3. Importieren Sie die Datei ```RetailSalesDashboard.pbix```.
 4. Überprüfen Sie die Datenverbindungen und stellen Sie sicher, dass der Datensatz ```SalesData.csv``` korrekt eingebunden ist.
+
+---
+
+## **Datensatz**
+
+Der Datensatz `SalesData.csv` enthält Verkaufsinformationen und folgende Felder:
+
+| **Feldname**           | **Beschreibung**                        |
+|-------------------------|------------------------------------------|
+| **Datum**              | Verkaufsdatum                           |
+| **Region**             | Verkaufsregion (z. B. Nord, Süd)        |
+| **Produkt**            | Produktkategorie (z. B. Laptop)         |
+| **Verkaufte Einheiten** | Anzahl der verkauften Produkte          |
+| **Einzelpreis**        | Preis pro Einheit                       |
+| **Gesamtumsatz**       | Umsatz pro Verkaufseintrag              |
+
+---
+
+## **Verwendung**
+
+1. Öffnen Sie die Power BI-Datei `RetailSalesDashboard.pbix`.
+2. Importieren Sie den bereitgestellten Datensatz `SalesData.csv`.
+3. Stellen Sie sicher, dass die Datentypen korrekt sind:
+   - **Datum**: Datum/Uhrzeit
+   - **Region**: Text
+   - **Produkt**: Text
+   - **Verkaufte Einheiten**: Ganzzahl
+   - **Einzelpreis**: Dezimalzahl
+   - **Gesamtumsatz**: Dezimalzahl
+4. Nutzen Sie die interaktiven Filter (Slicer), um Daten dynamisch zu analysieren:
+   - **Region**: Filtert die Daten nach Regionen.
+   - **Produkt**: Zeigt die Umsätze für ausgewählte Produkte an.
+5. Passen Sie das Dashboard nach Bedarf an:
+   - Ändern Sie Farbschemata und Diagrammeinstellungen.
+   - Fügen Sie zusätzliche Visualisierungen oder Filter hinzu.
+6. Exportieren Sie das Dashboard als PDF oder veröffentlichen Sie es im Power BI Service.
+
+
